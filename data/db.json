@@ -1,0 +1,34 @@
+{
+  "decks": [
+    {
+      "name": "React Router",
+      "description": "React Router is a collection of navigational components that compose declaratively with your application.",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Rendering in React",
+      "description": "React's component structure allows for quickly building a complex web application that relies on DOM manipulation."
+    }
+  ],
+  "cards": [
+    {
+      "front": "What path will match the follow Route?\n<Route>\n  <NotFound />\n</Route>",
+      "back": "All paths. A route with no path matches all URL's",
+      "deckId": 2,
+      "id": 4
+    },
+    {
+      "front": "What does <Switch> do?",
+      "back": "Renders the first matching child <Route> ",
+      "deckId": 2,
+      "id": 5
+    },
+    {
+      "front": "What does the history.push() method do? ",
+      "back": "The push() method pushes a new entry onto the history stack and changes the current URL to the value that you specify. When you use push(), you're always navigating forward from the current page.\n\n",
+      "deckId": 2,
+      "id": 6
+    }
+  ]
+}
